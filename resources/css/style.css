@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   margin= 0;
 }
@@ -8,6 +8,51 @@ h1, h2, h3, h4, p, a {
   margin: 0.5rem 0;
 }
 
+h1,h2,h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #2A2B2B;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+
+}
+
+p{
+  font-size: 1.25rem;
+}
+
+p, span {
+  font-family: 'Open Sans', sans-serif;
+  color: #2A2B2B;
+}
+
+a {
+  color: #7E7E7E;
+}
+
+a.menu {
+  font-family: 'Open Sans', sans-serif;
+  color: #2A2B2B;
+}
+
+/* Header Section */
 
 header {
   display: flex;
@@ -21,10 +66,24 @@ header .logo {
   align-items: center;
   margin-left: 1.5rem;
   height: 2rem;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
+
+header .logo .colmar {
+  font-weight: 600;
+}
+
+header .logo .academy{
+  font-weight: 400;
+  color: #7E7E7E;
+}
+
 
 header nav {
   margin-right: 1.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header nav ul {
@@ -40,11 +99,13 @@ a {
   text-decoration: none;
 }
 
+/* Banner Section */
+
 section.banner {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: grey;
+  background-color: #B7B7B7;
 }
 section.banner img {
   width: 60%;
@@ -55,16 +116,20 @@ section.banner img {
 section.banner .content {
   display: flex;
   flex-direction: column;
+  margin-right: 4rem;
 
 
 }
 
 section.banner a.button {
-  background: black;
+  background-color: #2A2B2B;
+  color: #7E7E7E;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
 }
+
+/* Information Section */
 
 section.information {
   display: flex;
@@ -75,6 +140,12 @@ section.information .image-content {
   max-width: 60%;
   height: auto;
   margin: 2rem 1.5rem;
+
+}
+
+section.information .image-content .quote-author {
+  font-size: 1rem;
+  font-style: italic;
 }
 
 section.information img {
@@ -112,8 +183,12 @@ section.information .content {
   margin-right: 1.5rem;
 }
 
+/* Courses Section */
+
 section.courses {
   text-align: center;
+  background-color: #C0C0C0;
+  padding: 2rem 0;
 }
 
 div.courses-container {
@@ -121,6 +196,7 @@ div.courses-container {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 3.5rem;
+  text-align: left;
 
 }
 
@@ -128,6 +204,11 @@ div.courses-container .box {
   max-width: 30%;
   margin: 2rem 1rem;
   flex-shrink: 1;
+  background-color: #FFFFFF;
+}
+
+div.courses-container .box .content {
+  margin-left: 1rem;
 }
 
 div.courses-container .box .image-container {
@@ -139,15 +220,25 @@ div.courses-container .box .image-container img {
   height: auto;
 }
 
+/* Thesis Section */
+
 section.thesis {
+  text-align: center;
+  padding: 2rem 0rem;;
+}
+
+div.thesis-container {
   display: flex;
   justify-content: space-between;
+  text-align: left;
 }
 
 section.thesis .video-content {
   max-width: 60%;
   height: auto;
-  margin: 2rem 1.5rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 section.thesis video {
@@ -198,7 +289,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-top: 1px solid #7E7E7E;
+}
+
+footer p {
+  font-size: 1rem;
 }
 
 footer nav ul {
