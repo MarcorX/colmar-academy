@@ -45,6 +45,7 @@ p, span {
 
 a {
   color: #7E7E7E;
+  text-decoration: none;
 }
 
 a.menu {
@@ -95,9 +96,20 @@ header nav ul li {
   margin-right: 1rem;
 }
 
-a {
-  text-decoration: none;
+header nav ul li a {
+  padding-bottom: 0.75rem;
 }
+
+header nav  a:hover {
+  border-bottom: 1px solid #7E7E7E;
+  padding-bottom: 0;
+  transition: padding-bottom 0.4s ease-out;
+}
+
+header nav  a:active {
+  color: #C0C0C0;
+}
+
 
 /* Banner Section */
 
@@ -127,6 +139,14 @@ section.banner a.button {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
+}
+
+section.banner a.button:hover {
+  color: #C0C0C0;
+}
+
+section.banner a.button:active {
+  background-color: #545454;
 }
 
 /* Information Section */
@@ -165,8 +185,23 @@ section.information div.flex-container {
 section.information div.flex-container .box {
   display: flex;
   margin: 0 0 1.5rem 0;
+  transition: background-color 0.25s linear;
+}
+
+section.information div.flex-container .box:hover {
+  background-color: #898989;
+}
+
+section.information div.flex-container .box a {
+  color: #363737;
+  text-decoration: underline;
+}
+
+section.information div.flex-container .box a:hover {
+  color: #C0C0C0;
 
 }
+
 
 section.information .flex-container .box .image-container {
   max-width: 35%;
@@ -205,6 +240,11 @@ div.courses-container .box {
   margin: 2rem 1rem;
   flex-shrink: 1;
   background-color: #FFFFFF;
+  transition: all .2s linear;
+}
+
+div.courses-container .box:hover {
+  opacity: .7;
 }
 
 div.courses-container .box .content {
@@ -256,10 +296,14 @@ section.thesis div.flex-container {
 
 }
 
-section.thesis div.flex-container .box {
+section.thesis div.flex-container .box a {
   display: flex;
   margin: 0 0 1.5rem 0;
+  transition: background-color 0.25s linear;
+}
 
+section.thesis div.flex-container .box a:hover {
+background-color: #898989;
 }
 
 section.thesis .flex-container .box .image-container {
@@ -305,3 +349,8 @@ footer nav ul {
 
 footer nav ul li {
   margin-right: 1rem;
+}
+
+footer nav ul li a:hover{
+  color: #C0C0C0;
+}
