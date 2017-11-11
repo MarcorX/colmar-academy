@@ -380,7 +380,7 @@ footer nav ul li a:hover{
 }
 
 /* !!!!!!!!!!! Monile Version !!!!!!!!!!!!! */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width : 769px) {
 
   /* Mobile General  */
   .desktop {
