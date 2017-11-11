@@ -535,7 +535,8 @@ div.courses-container .box:hover {
   opacity: 1;
 }
 
-div.courses-container .box:hover > .content {
+div.courses-container .box:hover > .content,
+div.courses-container .box:active > .content {
   max-height: 12rem;
 }
 
