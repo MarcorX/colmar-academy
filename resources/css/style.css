@@ -545,15 +545,13 @@ div.courses-container .box .content {
   cursor: pointer;
 }
 
-div.courses-container .box .content:hover {
+div.courses-container .box .content:hover,
+ div.courses-container .box .content:active {
   max-height: 12rem;
 
 }
 
-div.courses-container .box .content:focus {
-  max-height: 12rem;
 
-}
 
 div.courses-container .box .content h3 {
   padding: 1rem 1rem 1.5rem 1rem;
