@@ -543,6 +543,7 @@ div.courses-container .box .content {
   background-color: #FFFFFF;
   transition: all 0.5s linear;
   cursor: pointer;
+  z-index: 5;
 }
 
 div.courses-container .box .content:hover,
