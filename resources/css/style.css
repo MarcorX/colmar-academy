@@ -375,6 +375,8 @@ footer nav ul li a:hover{
   color: #C0C0C0;
 }
 
+/* UI Feedback only for Desktop */
+
 @media only screen and (min-width : 769px) {
   div.courses-container .box {
     transition: all .2s linear;
