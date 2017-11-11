@@ -540,7 +540,7 @@ div.courses-container .box {
 }
 
 div.courses-container .box:hover > .content {
-  max-height: 12rem;
+  max-height: 16rem;
 }
 
 
