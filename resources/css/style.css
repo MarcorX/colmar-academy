@@ -539,7 +539,7 @@ div.courses-container .box {
 
 }
 
-div.courses-container .box:hover > .content, {
+div.courses-container .box:hover > .content {
   max-height: 12rem;
 }
 
