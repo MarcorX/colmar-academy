@@ -542,6 +542,7 @@ div.courses-container .box .content {
   overflow: hidden;
   background-color: #FFFFFF;
   transition: all 0.5s linear;
+  cursor: pointer;
 }
 
 div.courses-container .box .content:hover {
@@ -549,7 +550,7 @@ div.courses-container .box .content:hover {
 
 }
 
-div.courses-container .box .content:active {
+div.courses-container .box .content:focus {
   max-height: 12rem;
 
 }
