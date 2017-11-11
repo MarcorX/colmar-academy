@@ -535,6 +535,12 @@ div.courses-container .box:hover {
   opacity: 1;
 }
 
+div.courses-container .box:hover > .content {
+  max-height: 12rem;
+}
+
+
+
 div.courses-container .box .content {
   display: block;
   margin: 0;
@@ -543,13 +549,6 @@ div.courses-container .box .content {
   background-color: #FFFFFF;
   transition: all 0.5s linear;
   cursor: pointer;
-  z-index: 5;
-}
-
-div.courses-container .box .content:hover,
- div.courses-container .box .content:active {
-  max-height: 12rem;
-
 }
 
 
