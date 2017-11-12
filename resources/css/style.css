@@ -375,7 +375,7 @@ footer nav ul li a:hover{
   color: #C0C0C0;
 }
 
-/* UI Feedback only for Desktop */
+/* UI Feedback - only for Desktop */
 
 @media only screen and (min-width : 769px) {
   div.courses-container .box {
@@ -509,11 +509,16 @@ section.information .flex-container .box .image-container img.mobile {
 
 
 section.information .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
   width: 100%;
-  margin: 2rem 1rem 4rem 1rem;;
+  margin: 2rem 1.5rem 2rem 1rem;
+  padding-bottom: 2rem;
+}
+
+section.information .content h3,
+section.information .content p {
+  margin-right: 2rem;
+
 }
 
 /* Mobile Courses Section */
